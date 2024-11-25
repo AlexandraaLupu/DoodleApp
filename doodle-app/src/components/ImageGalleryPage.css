@@ -1,0 +1,70 @@
+body {
+    background-color: #C4CDC1;
+}
+
+.app {
+	background-color: #C4CDC1;
+	width: 100%;
+}
+
+.title-section {
+	background-color: #28363D;
+	font-family: 'Roboto Mono';
+	font-size: 20px;
+	color: #C4CDC1;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.category {
+    padding-right: 100px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: -30px;
+    font-family:'Montserrat';
+    text-align: right;
+}
+
+.image-card {
+    border: #99a296 solid 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding: 20px;
+    background-color: #d8e2d5;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.paintings-section {
+    /* border: red solid 2px; */
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 20px;
+    
+}
+
+.details-section {
+    /* border: blue solid 2px; */
+    align-content: center;
+    padding-right: 30px;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.author {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-size: 20px;
+}
+
+.year {
+    font-family: 'Montserrat';
+}

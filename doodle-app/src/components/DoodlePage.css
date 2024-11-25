@@ -1,0 +1,55 @@
+.app {
+	background-color: #C4CDC1;
+	width: 100%;
+}
+
+.title-section {
+	background-color: #28363D;
+    font-family: 'Roboto Mono'; 
+	font-size: 20px;
+	color: #C4CDC1;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.content-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #DEE1DD;
+}
+
+.canvas-section {
+	background-color: white;
+	margin: 30px;
+}
+
+.button-section {
+	display: flex;
+	flex-direction: column;
+	margin: 30px;
+	margin-top: 60px;
+	gap:30px;
+}
+
+.predictions {
+	font-family: 'Montserrat';
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	background-color: #b8aa93;
+	color: white;
+	border-radius: 5%;
+	margin-bottom: 10px;
+	height: 150px;
+}
+
+.prediction-section {
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+}
