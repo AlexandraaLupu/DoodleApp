@@ -2,6 +2,8 @@
 
 DoodleApp is a search engine for paintings that uses user-drawn doodles as input queries. Using a convolutional neural network (CNN) trained on the Quick, Draw! dataset, the app classifies doodles into categories and matches them with paintings that have been pre-classified using a YOLOv8 model.
 
+https://github.com/user-attachments/assets/021d7791-3a04-4444-9b15-32c8d746ed70
+
 ## Features
 - **Doodle Recognition**: Classifies user doodles into specific categories.
 - **Painting Matching**: Matches classified doodles with paintings stored in the database.
