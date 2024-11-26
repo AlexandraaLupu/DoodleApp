@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from database import Base, engine
 from routes import router as api_router
@@ -14,7 +13,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.mount("/model_files", StaticFiles(directory="../doodle-app/src/model_json"), name="model_files")
 
 Base.metadata.create_all(bind=engine)
 
